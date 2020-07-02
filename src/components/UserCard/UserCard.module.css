@@ -1,0 +1,9 @@
+.cardBody {
+    display : flex;
+    flex-basis: 30%;
+    justify-content: space-evenly;
+}
+
+.container  h1 {
+    text-align: center;
+}
