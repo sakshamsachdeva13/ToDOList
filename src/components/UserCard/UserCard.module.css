@@ -1,9 +1,28 @@
 .cardBody {
     display : flex;
+    
     flex-basis: 30%;
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 
+.container {
+    /* height: 1000px; */
+}
 .container  h1 {
     text-align: center;
+
+}
+
+.compairBox {
+    display : flex;
+}
+
+.position {
+    position: absolute;
+    top : 200px;
+    right : 0;
+    z-index : 200;
+    height : 150px;
+    width : 150px;
+    background-color : maroon;
 }
